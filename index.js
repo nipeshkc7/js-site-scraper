@@ -18,6 +18,7 @@ async function scrape(url) {
     const page = await browser.newPage();
     await page.goto(url, { waitUntil: 'networkidle0' });
     const pageContent = await page.content();
+    console.log(pageContent);
     await browser.close();
     return pageContent;
   } catch (error) {
@@ -25,6 +26,9 @@ async function scrape(url) {
     throw error;
   }
 }
+
+console.log('test scraping');
+console.log(`Scraping instagram.com: ${scrape('https://instagram.com')}`);
 
 module.exports = {
   scrape,

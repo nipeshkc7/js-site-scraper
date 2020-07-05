@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/nipeshkc7/js-site-scraper/issues"
   },
-  "homepage": "https://github.com/nipeshkc7/js-site-scraper#readme"
+  "homepage": "https://github.com/nipeshkc7/js-site-scraper#readme",
+  "dependencies": {
+    "chrome-aws-lambda": "^3.1.1",
+    "puppeteer-core": "^5.0.0"
+  }
 }
