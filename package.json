@@ -1,0 +1,22 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "Scrape websites using puppeteer-core",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nipeshkc7/js-site-scraper.git"
+  },
+  "keywords": [
+    "scraping"
+  ],
+  "author": "Arpan KC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nipeshkc7/js-site-scraper/issues"
+  },
+  "homepage": "https://github.com/nipeshkc7/js-site-scraper#readme"
+}
